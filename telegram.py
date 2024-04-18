@@ -30,7 +30,6 @@ if __name__ == '__main__':
     while True:
         ask = input('Run again (y/n) : ')
         if ask.lower() == 'y':
-            driver.clear()
             telegram()
         elif ask.lower() == 'n':
             print('Good luck')
